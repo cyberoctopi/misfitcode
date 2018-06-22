@@ -1,3 +1,42 @@
 
 * Links
 [[http://reborg.tumblr.com/][Reborg: Clojure Standard Library Blog]]
+
+
+
+* Notes
+
+** Sequences
+   [[file:~/Vega/misfitcode/src/misfitcode/seqstudy.clj::;;%20Clojure%20Standard%20Library%20chapter%209%20&%2010][Sequence Study]]
+*** Sequence Generators
+**** collections
+     calling seq on a collection or through some sor of seq processing function
+***** vector
+***** hash-set
+***** hash-map
+***** PersistentQueue
+***** list
+**** (custom) usually lazy-seq
+     sequence is created over a specialized view, i/o or nested structure
+***** nested collection -> tree-seq
+***** xml/parsing -> xml-seq
+***** files -> file-seq
+***** JDBC Results -> resultset-seq
+***** BufferedReader -> line-seq
+***** regexes -> re-seq
+**** on demand
+     data in the sequence doesn't exist, it's generated as requested
+***** range
+***** iterate
+***** cycle
+***** repeat
+**** styling
+***** reversed -> rseq
+***** blocking -> seque
+**** abstractions
+     collections offer access through an abstraction?? 'java.util.ArrayList'? COME BACK TO THIS!!!
+***** enumeration-seq
+***** iterator-seq
+****** ArrayList
+****** HashSet
+***** Another seq
