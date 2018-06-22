@@ -6,7 +6,7 @@
 
 * Notes
 
-** Sequences
+** Sequences -> [Last Reviewed <2018-06-22 Fri 00:00>]
    [[file:~/Vega/misfitcode/src/misfitcode/seqstudy.clj::;;%20Clojure%20Standard%20Library%20chapter%209%20&%2010][Sequence Study]]
 *** Sequence Generators
 **** collections
