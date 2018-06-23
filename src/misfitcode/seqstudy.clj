@@ -55,3 +55,15 @@
 ;; It’s persistent and immutable: like all other core data structures, sequences cannot be altered once created, but changes are possible in terms of a new sequence based on the previous (with structural sharing).”
 ;; Excerpt From: Renzo Borgatti. “Clojure Standard Library: An annotated reference MEAP V15.” iBooks.
 ;;__________________________________________________________________________________________________
+(split-at 5 (range 10))
+(map #(format "<p>%s</p>" %) ["test" "tube" "blue"])
+(reduce + (range 1 11))
+
+(def x (range 1 5))
+x
+
+(defn foo [n]
+  (str n))
+(foo (first x))
+(foo (rest x))
+(foo (nth x 0))

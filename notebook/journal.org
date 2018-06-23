@@ -1,13 +1,13 @@
 
 * Links
 [[http://reborg.tumblr.com/][Reborg: Clojure Standard Library Blog]]
-
+[[https://clojure.org/guides/learn/hashed_colls][Hashed Collections (clojure.org)]]
 
 
 * Notes
 
 ** Sequences -> [Last Reviewed <2018-06-22 Fri 00:00>]
-   [[file:~/Vega/misfitcode/src/misfitcode/seqstudy.clj::;;%20Clojure%20Standard%20Library%20chapter%209%20&%2010][Sequence Study]]
+   [[file:~/Vega/misfitcode/src/misfitcode/seqstudy.clj::;;%20Clojure%20Standard%20Library%20chapter%209%20&%2010][Sequence Study]] C-c C-o
 *** Sequence Generators
 **** collections
      calling seq on a collection or through some sor of seq processing function
@@ -31,7 +31,7 @@
 ***** cycle
 ***** repeat
 **** styling
-***** reversed -> rseq
+***** reversed -> rseq (CSL book, ch9.1)
 ***** blocking -> seque
 **** abstractions
      collections offer access through an abstraction?? 'java.util.ArrayList'? COME BACK TO THIS!!!
