@@ -1,1 +1,6 @@
 * Joy of Clojure
+
+
+* Further Research/Questions
+***** Binding & ^:dynamic
+***** letfn
