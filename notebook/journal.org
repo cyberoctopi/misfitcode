@@ -1,14 +1,20 @@
 
+* Sections
+** Joy Of Clojure
+   [[file:joyofclojurenotes.org::*Joy%20of%20Clojure][Joy of Clojure Notes]]
+
 * Links
-[[http://reborg.tumblr.com/][Reborg: Clojure Standard Library Blog]]
+** Collections
 [[https://clojure.org/guides/learn/hashed_colls][Hashed Collections (clojure.org)]]
+[[https://purelyfunctional.tv/guide/clojure-collections/][Eric Normand on Mastering Collections]]
+** Specs
+[[http://gigasquidsoftware.com/blog/2016/05/29/one-fish-spec-fish/][One Fish, One Spec]]
 
 
 * Notes
-
 ** Sequences -> [Last Reviewed <2018-06-22 Fri 00:00>]
    [[file:~/Vega/misfitcode/src/misfitcode/seqstudy.clj::;;%20Clojure%20Standard%20Library%20chapter%209%20&%2010][Sequence Study]] C-c C-o
-*** Sequence Generators
+*** [Sequence Generators]
 **** collections
      calling seq on a collection or through some sor of seq processing function
 ***** vector
@@ -40,3 +46,6 @@
 ****** ArrayList
 ****** HashSet
 ***** Another seq
+
+* Papers
+“Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I”
