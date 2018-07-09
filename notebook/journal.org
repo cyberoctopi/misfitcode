@@ -5,12 +5,13 @@
 
 * Links
 ** Collections
-[[https://clojure.org/guides/learn/hashed_colls][Hashed Collections (clojure.org)]]
-[[https://purelyfunctional.tv/guide/clojure-collections/][Eric Normand on Mastering Collections]]
+   [[https://clojure.org/guides/learn/hashed_colls][Hashed Collections (clojure.org)]]
+   [[https://purelyfunctional.tv/guide/clojure-collections/][Eric Normand on Mastering Collections]]
 ** Specs
-[[http://gigasquidsoftware.com/blog/2016/05/29/one-fish-spec-fish/][One Fish, One Spec]]
+   [[http://gigasquidsoftware.com/blog/2016/05/29/one-fish-spec-fish/][One Fish, One Spec]]
 
-
+** Arbitrary
+   [[https://dzone.com/articles/notes-on-debugging-clojure-code][Debugging Clojure]]
 * Notes
 ** Sequences -> [Last Reviewed <2018-06-22 Fri 00:00>]
    [[file:~/Vega/misfitcode/src/misfitcode/seqstudy.clj::;;%20Clojure%20Standard%20Library%20chapter%209%20&%2010][Sequence Study]] C-c C-o
