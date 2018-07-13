@@ -1,6 +1,6 @@
 (ns misfitcode.joy.chess)
 
-(def ^:dynamic *file-key* \a)w
+(def ^:dynamic *file-key* \a)
 (def ^:dynamic *rank-key* 0)
 
 (defn- file-component [file]
@@ -30,9 +30,5 @@
    \P \P \P \P \P \P \P \P
    \R \N \B \Q \K \B \N \R])
 
-(lookup (initial-board) "a8")
+(lookup (initial-board) "a5")
 
-(defn hidden-joke []
-  (println "I'm saying eval because i'm actually using this conversation to study"))
-
-(eval hidden-joke)
