@@ -30,7 +30,10 @@
 (conj [ 1 2 3] 4)
 (into [1 2 3] [:4 :5])
 ;; remember rest/cons etc return 'seqs'; seqs are logical list
+(def test (agent 2))
 
+(send test inc)
+(f)
 ;; EXPLAINING THE SEQ LIBARY
 ;; first/rest/cons
 ;; all functions do the following

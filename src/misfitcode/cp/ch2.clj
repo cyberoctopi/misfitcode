@@ -37,3 +37,8 @@
   [n]
   (fn [x] (+ n x)))
 ((adder 4) 2)
+
+(def names {:first-name "Jamal" :last-name "Burgess"})
+
+(type )
+(vals  names)
