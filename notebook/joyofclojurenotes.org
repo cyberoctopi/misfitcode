@@ -1,5 +1,16 @@
-* Joy of Clojure
+#+TITLE: Joy of Clojure Notes
+#+AUTHOR: Jamal Burgess
+#+TODO: READING(t) RESEARCH(r@/!) UNDERSTAND(u@/!) | DONE(d!) CANCELED(c@)
 
+* Joy of Clojure
+** Ch. 10 - Mutation & Concurrency
+*** Refs, Agents, Atoms, Vars
+
+* RESEARCH When to use references
+:LOGBOOK:
+- State "RESEARCH"   from              [2018-09-16 Sun 00:14] \\
+  Get an understanding of concurrency and stm model
+:END:
 
 * Further Research/Questions
 ***** Binding & ^:dynamic

@@ -30,5 +30,5 @@
    \P \P \P \P \P \P \P \P
    \R \N \B \Q \K \B \N \R])
 
-(lookup (initial-board) "a5")
+(lookup (initial-board) "a2")
 

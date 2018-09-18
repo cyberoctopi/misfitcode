@@ -4,7 +4,8 @@
    (println "Making a set")
    #{x y})
  1 2)
-
+(vec)
+(vect)
 
 (vector 1 2 3)
 (def x 42)

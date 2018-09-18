@@ -1,6 +1,9 @@
 (ns misfitcode.cp.ch3
   (:require [clojure.string :as str]))
 
+
+
+
 '(a b :name 12.5) ;; list
 ['a 'b :name 12.5] ;; vector
 {:name "Chas" :age 34} ;; map

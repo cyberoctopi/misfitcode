@@ -1,0 +1,23 @@
+
+*** Forms
+When creating forms always start off with .preventDefault to make sure SPA doesn't reload page
+#+BEGIN_SRC clojure
+  (fn [e]
+  (.preventDefault ))
+#+END_SRC
+
+
+
+
+Go back to video 12 in undersanding re-frame
+#+BEGIN_SRC clojure
+  (ref/reg-event-fx
+  :save-image
+  (fn [cofx [_ form-data]
+    {:http-xhrio {:uri "url here"
+                :body form-data
+                :method :post
+                :timeout 10000
+                :response-format (ajax/json-response-format {:keywords? true})}}]))
+#+END_SRC
+
