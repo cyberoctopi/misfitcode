@@ -183,6 +183,8 @@ great-baby-name
 (connect-down-left {} 15 1)
 (connect-down-right {} 12 2)
 
+
+
 (defn add-pos
   "Pegs the position and performs connections"
   [board max-pos pos]
@@ -193,4 +195,45 @@ great-baby-name
             [connect-right connect-down-left connect-down-right])))
 
 (add-pos {} 15 1)
+
+(defn clean
+  [text]
+  (reduce (fn [string string-fn] (string-fn string))
+          text
+          [s/trim #(s/replace % #"lol" "LOL")]))
+
+(defn new-board
+  "Creates a new board with the given number of rows"
+  [rows]
+  (let [initial-board {:rows rows}
+        max-pos (row-tri rows)]
+    (reduce (fn [board pos] (add-pos board max-pos pos))
+            initial-board
+            (range 1 (inc max-pos)))))
+
+(new-board 5)
+
+(defn pegged?
+  "Does the position have a peg in it?"
+  [board pos]
+  (get-in board [pos :pegged]))
+
+
+(defn remove-peg
+  "Take the peg at given position out of the board"
+  [board pos]
+  (assoc-in board [pos :pegged] false))
+
+
+(defn place-peg
+  "Put a peg in the board at a given position"
+  [board pos]
+  (assoc-in board [pos :pegged] true))
+
+
+(defn move-peg
+  "Take a peg out of p1 and place it in p2"
+  [board p1 p2]
+  (place-peg (remove-peg board p1) p2))
+
 
